@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: my_hosts
   gather_facts: no
   roles:
     - ansible-testing-role
