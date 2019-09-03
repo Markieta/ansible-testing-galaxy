@@ -1,4 +1,5 @@
-- hosts: my_hosts
+---
+- hosts: "{{ which_hosts }}"
   gather_facts: no
   roles:
     - ansible-testing-role
